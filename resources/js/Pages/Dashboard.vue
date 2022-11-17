@@ -1,4 +1,5 @@
 <script setup>
+import Chart from '@/Components/Chart.vue';
 import WeatherCard from '@/Components/WeatherCard.vue';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/inertia-vue3';
@@ -17,10 +18,7 @@ const props = defineProps({ cities: Object})
             </template>
             </div>
             <div class="px-4 text-center py-12">
-                <div>cahrt</div>
-                <div>cahrt</div>
-                <div>cahrt</div>
-                <div>cahrt  </div>
+                <Chart />
             </div>
         </div>
     </AuthenticatedLayout>
