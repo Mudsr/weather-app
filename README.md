@@ -1,6 +1,6 @@
 Coding Test: Simple Weather App 
 
-php 8.1 and laravel v9 have been used for this demo app.
+php 8.1 and laravel v9 have been used for this test.
 
 
 clone the repository and then set up configs and run below commands. 
